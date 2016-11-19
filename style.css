@@ -75,9 +75,15 @@ body{
 #top li{
 	display: inline;
 	line-height: 70px;
+	border-left: 2px solid #000;
+	padding-left: 5px;
 }
 #top li:first-child{
 	margin-left: 10px;
+	border:none;
+}
+#top a{
+	display: inline-block;
 }
 .cf:after {
   content: "";
