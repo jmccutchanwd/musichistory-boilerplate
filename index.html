@@ -18,7 +18,41 @@
 				</ul>
 			</div>
 			<div id="left">
-				<form></form>
+				<form>
+					<label for="songLength">Song length:</label>
+          			<input type="range" id="songLength" name="songLength min="0" max="10">
+          			<br>
+          			<label for="artist">Artist:</label>
+          			<br>
+          			<select id="artist" name="artist">
+            			<option value="some_artist">Option</option>
+            		</select>
+          			<br>
+          			<label for="album">Album:</label>
+          			<br>
+          			<select id="album" name="album">
+            			<option value="some_album">Option</option>
+            		</select>
+            		<br>
+          			<label for="genre">Genre:</label>
+          			<br>
+          			<table>
+          				<tr>
+							<td><input type="checkbox" name="rock" value="rock">Rock<br></td>
+          					<td><input type="checkbox" name="rock" value="rock">Pop<br></td>
+          				</tr>
+          				<tr>
+          					<td><input type="checkbox" name="rock" value="rock">Blues<br></td>
+          					<td><input type="checkbox" name="rock" value="rock">Classical<br></td>
+          				</tr>
+          				<tr>
+          					<td><input type="checkbox" name="rock" value="rock">Jaz<br></td>
+          					<td><input type="checkbox" name="rock" value="rock">Hip hop<br></td>
+          				</tr>
+          			</table>
+          			<br>
+          			<button>Filter</button>
+				</form>
 			</div>
 			<div id="right">
 				<h2>Song Name</h2>
