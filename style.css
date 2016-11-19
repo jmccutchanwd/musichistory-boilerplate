@@ -90,7 +90,10 @@ body{
   display: table;
   clear: both;
 }
-
+h3{
+	color: rgba(236, 240, 241,1.0);
+	margin: 50px 0 0 12px;
+}
 
 
 /* --- Breakpoints --- */
