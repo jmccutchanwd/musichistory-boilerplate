@@ -67,8 +67,18 @@ body{
 	border: 2px solid #000;
 	margin-top: 15px;
 }
-nav ul li a {}
-
+#top ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#top li{
+	display: inline;
+	line-height: 70px;
+}
+#top li:first-child{
+	margin-left: 10px;
+}
 .cf:after {
   content: "";
   display: table;
