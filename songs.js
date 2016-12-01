@@ -1,17 +1,5 @@
 /*
 
-Setup
-
-Create a branch in your musichistory repository named version2.
-Switch to that branch.
-Requirements
-
-Use JavaScript arrays, loops, and innerHTML to show the music you love.
-
-Students must use JavaScript to create a list of songs in the index.html file for their Music 
-History project. Have them download the songs.js file, which contains an array of strings with 
-song information.
-
 -----------------------------------------------------------------------------
 1. Each student must add one song to the beginning and the end of the array.
 -----------------------
@@ -51,27 +39,24 @@ songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little
 
 console.log(songs);
 
-function addSongFront(song, band, album, genre) {
-	for(var i = 0; i < songs.length; i++){
-		songs[songs.length] = songs.push(song, band, album, genre);
+function addSongFront(string) {
+	for(var i = 0; i < 6; i++){
+		songs.push = string;
+		console.log(i);
 	}
 	console.log("added front " + songs);
 }
 
-function addSongBack(song, band, album, genre) {
-	for(var i = 0; i < songs.length; i++){
+// function addSongBack(song, band, album, genre) {
+// 	for(var i = 0; i < songs.length; i++){
 
-	}
-	console.log("added back " + songs);
-}
-
-
-
-addSongFront('song', 'band', 'album', 'genre');
+// 	}
+// 	console.log("added back " + songs);
+// }
 
 
 
-
+// addSongFront("Ironi!c > by Alanis Moris*ette on the album Jagged Little Pill > rock");
 
 
 
