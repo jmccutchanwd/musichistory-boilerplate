@@ -51,21 +51,23 @@ songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little
 
 console.log(songs);
 
-function addSongFront() {
+function addSongFront(song, band, album, genre) {
+	for(var i = 0; i < songs.length; i++){
+		songs[songs.length] = songs.push(song, band, album, genre);
+	}
+	console.log("added front " + songs);
+}
+
+function addSongBack(song, band, album, genre) {
 	for(var i = 0; i < songs.length; i++){
 
 	}
-}
-
-function addSongBack() {
-	for(var i = 0; i < songs.length; i++){
-
-	}
+	console.log("added back " + songs);
 }
 
 
 
-
+addSongFront('song', 'band', 'album', 'genre');
 
 
 
