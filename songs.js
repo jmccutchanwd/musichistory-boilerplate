@@ -23,7 +23,7 @@ songs.push("Paint It Black > by The Rolling Stones on the album Aftermath");
 songs.unshift("November Rain > by Guns N' Roses on the album Use Your Illusion I");
 //---------------------------------------
 for(var i = 0; i < songs.length; i++){
-  signs.push(songs[i].replace(/>/g , "-"));
+	signs.push(songs[i].replace(/>/g , "-"));
 	revisedSongs.push(signs[i].replace(/\*|\@|\!|\(|by|album|on the|÷|/g, ""));
 }
 document.getElementById("listNew").innerHTML = "<li>" + revisedSongs + "</li>";
